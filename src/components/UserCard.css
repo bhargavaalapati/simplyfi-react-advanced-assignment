@@ -1,0 +1,23 @@
+/* src/components/UserCard.css */
+
+/* Default color for all action icons, making them 50% darker (closer to black) */
+/* This will target all Ant Design icons within the actions section */
+.ant-card-actions>li>span>.anticon {
+    color: rgba(0, 0, 0, 0.85);
+    /* 50% darker than default 0.65, closer to black */
+    transition: color 0.3s ease;
+}
+
+/* Override for the red heart */
+.ant-card-actions>li>span>.anticon-heart,
+.ant-card-actions>li>span>.anticon-heart-fill {
+    color: red !important;
+    /* Ensure red color is maintained for heart */
+}
+
+
+/* Hover effect for the delete icon, making it red on hover */
+.ant-card-actions>li>span>.anticon-delete:hover {
+    color: #0254f9 !important;
+    /* Ant Design's standard error red */
+}
