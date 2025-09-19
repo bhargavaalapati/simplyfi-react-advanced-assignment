@@ -2,7 +2,7 @@
 
 This project is a responsive, single-page application built with React and Ant Design. It displays a grid of user profiles with interactive features like liking, editing, and deleting. This was developed as the advanced part of a frontend developer screening assignment, focusing on state management and integration with a component library.
 
-### [View Live Demo](https://your-deployment-link-for-assignment-2.vercel.app)
+### [View Live Demo](https://simplyfi-assignment-2-cot8vss7b-alapatis-projects.vercel.app/)
 
 ---
 
