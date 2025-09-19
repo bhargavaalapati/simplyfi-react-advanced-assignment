@@ -26,7 +26,7 @@ const UserCard = ({ user }) => {
         borderRadius: '4px',
         border: '1px solid #f0f0f0',
         width: '309.73px',
-        height: '200px',
+        height: '100%',
       }}
       cover={
         <div style={{ 
